@@ -12,7 +12,19 @@ EditorBuildSettings:
     path: Assets/Scenes/PageSelectionScene.unity
     guid: beca7ec1e97b8cd43bc521a655a9526a
   - enabled: 1
-    path: Assets/Scenes/C# Alkeet, Muutajat/Material_CodeStructure_1.unity
+    path: Assets/Scenes/C# Alkeet, Muutajat/Material_Introduction_C#.unity
+    guid: e9d201974cac68c4ab33678ddfa3f4ff
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Material_Introduction_VS_Download_1.unity
+    guid: 21dd5b25c1c1da543822738fa394fa53
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Material_Introduction_VS_Download_2.unity
+    guid: 72ccbfed994c99244b03983bce40ce38
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Material_CodeStructureAndBasics_1.unity
     guid: 3057357532cb3c34c8dd5df1f7549d8e
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Material_CodeStructureAndBasics_2.unity
+    guid: 721c22df531fed04c812c635ac532b0c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

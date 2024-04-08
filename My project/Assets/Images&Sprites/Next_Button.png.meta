@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 82eb7f37cc7939648b070b7c5647a964
+guid: 26890b76979c2904daf533c25dfae71a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2096882059006059155
-    second: Menu_Button_0
-  - first:
-      213: -5971591036030389149
-    second: Menu_Button_1
-  - first:
-      213: 5958198138276239075
-    second: Menu_Button_2
+      213: -6840116022360823441
+    second: Next_Button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu_Button_0
+      name: Next_Button_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 79
-        width: 116
-        height: 31
+        x: 31
+        y: 28
+        width: 193
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,50 +127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6ddd0980e066e2e0800000000000000
-      internalID: -2096882059006059155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Menu_Button_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 39
-        width: 116
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36470817795a02da0800000000000000
-      internalID: -5971591036030389149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Menu_Button_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 116
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e6595d83a5cfa250800000000000000
-      internalID: 5958198138276239075
+      spriteID: f69a9b8d7b60311a0800000000000000
+      internalID: -6840116022360823441
       vertices: []
       indices: 
       edges: []
@@ -192,9 +144,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Menu_Button_0: -2096882059006059155
-      Menu_Button_1: -5971591036030389149
-      Menu_Button_2: 5958198138276239075
+      Next_Button_0: -6840116022360823441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
