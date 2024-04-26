@@ -194,10 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Nytten asennetaan Visual studio. Avaa Visual Studio Setuppi ja seuraa
-    asennusta kunnes p\xE4\xE4set \"Workload\" osioon. Siin\xE4 sin\xE4 haluat valita
-    \".NET desktop development\" ja \"Game development with Unity\" osat ja sitten
-    paina \"Install\" asentaakseen Visual Studion."
+  m_Text: A
 --- !u!222 &661590830
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -553,7 +550,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4401364879859708037, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Text
-      value: Visual studion asentaminen.
+      value: "Visual studion k\xE4ytt\xE4minen"
       objectReference: {fileID: 0}
     - target: {fileID: 6571865623390019869, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Pivot.x
@@ -637,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7058628496367806489, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Text
-      value: 3/3
+      value: 0/0
       objectReference: {fileID: 0}
     - target: {fileID: 8058436675063826029, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Name
@@ -653,78 +650,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6571865623390019869, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
   m_PrefabInstance: {fileID: 1385593082}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2013083487
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2013083488}
-  - component: {fileID: 2013083490}
-  - component: {fileID: 2013083489}
-  m_Layer: 5
-  m_Name: RawImage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2013083488
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013083487}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2119139394}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.5, y: -32.916267}
-  m_SizeDelta: {x: 845, y: 234.1676}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2013083489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013083487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: abc097a14e8a3b74cab38980be9eda9c, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &2013083490
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2013083487}
-  m_CullTransparentMesh: 1
 --- !u!1 &2119139393
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +681,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 661590828}
-  - {fileID: 2013083488}
   m_Father: {fileID: 1202012845}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -893,8 +817,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800356767782766449, guid: 0e8228e4d7c46d54f8a84bf465468e8b, type: 3}
       propertyPath: m_Text
-      value: "Visual studion lataamis ohjeet l\xF6ytyv\xE4t my\xF6s kursista.\n(N\xE4m\xE4
-        tai ne ohjeet voivat olla vanhentuneet, joten kysy apua jos tarvitset.)"
+      value: "Kursilta l\xF6ytyy projenktin luomis ohjeet my\xF6s.\nKysy apua tai
+        katso video miten k\xE4ytt\xE4\xE4 visual studiota."
       objectReference: {fileID: 0}
     - target: {fileID: 7800356767782766449, guid: 0e8228e4d7c46d54f8a84bf465468e8b, type: 3}
       propertyPath: m_FontData.m_FontSize
