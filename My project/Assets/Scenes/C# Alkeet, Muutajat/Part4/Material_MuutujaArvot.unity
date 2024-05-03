@@ -186,7 +186,7 @@ MonoBehaviour:
     m_FontSize: 19
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
+    m_MinSize: 1
     m_MaxSize: 205
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -194,21 +194,20 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C# ohjelmoinnissa on monia eri arvoja ja arvo tyypej\xE4 joita k\xE4ytett\xE4\xE4n
-    monissa eri toiminnoissa.  \nSuurin osa koodista k\xE4ytt\xE4\xE4 n\xE4it\xE4
-    arvoja toimiakseen ja saadakseen tuloksia kuten laskureita tai tekstien tekemisess\xE4.
-    Yleisesti kun n\xE4it\xE4 arvoja asetetaan koodiriviin, ne pit\xE4\xE4 manuaalisesti
-    kirjoittaa ja niit\xE4 ei pystyt\xE4 k\xE4ytt\xE4m\xE4\xE4n uudelleen jos niit\xE4
-    lis\xE4t\xE4\xE4n t\xE4ll\xE4 tavalla ellei koko koodirivi\xE4 py\xF6ritet\xE4
-    uudelleen.\n\nJoten helpottaakseen koodin kirjoittamista ja mahdollistaakseen
-    ohjelmien jotka tarvitsevat k\xE4ytt\xE4jien antamien arvojen k\xE4ytt\xE4mist\xE4
-    koodissa, ohjelmointi kieliess\xE4 on tallenuksia joita kutsutaan Muutujiksi.\n\nMuutujat
-    ovat nimellisi\xE4 arvon pidikeitt\xE4, jolle annetaan arvo tyypi ja arvo pidett\xE4v\xE4ksi
-    jotta niit\xE4 voitaisiin k\xE4ytt\xE4\xE4 my\xF6hemmin tai useamman kerran.
-    Muutujia voidaan my\xF6s k\xE4ytt\xE4\xE4 ottaakseen k\xE4ytt\xE4j\xE4n antamia
-    tietoja, joita ohjelmisto tarvitsee tehd\xE4kseen asioita. Muutujat my\xF6s helpottavat
-    koodissa arvojen vaihtamista, etenkin jos niit\xE4 k\xE4ytet\xE4\xE4n todella
-    monta kertaa."
+  m_Text: "Tehd\xE4kseen ohjelmoinista helpompaa ja helpottaakseen eri arvoja toisistaan,
+    ohjelmoinissa on monia eri tyypisi\xE4 tieto arvoja, joilla voidaan varmistaa
+    ett\xE4 tiettyt arvot voidaan k\xE4ytt\xE4 tietyiss\xE4 koodeissa.\n\nYleisimm\xE4t
+    k\xE4ytettyt arvojen/tietojen tyypej\xE4 ovat:\n> string, joka on teksti tiedosto,
+    johon voidaan kirjoitta kokonaisia lauseita tai monia.\n> int, mik\xE4 on numerollinen
+    arvo. Siihen laitetaan vain kokonaisia numeroita\n> float, joka on samallainen
+    kuin int, paitsi se voi k\xE4sitell\xE4 desimaaleja ja negatiivisia lukuja, sek\xE4
+    pystyy k\xE4sitell\xE4 lukuja suurempia kuin int.\n> double, mik\xE4 on sama
+    asia kuin float, mutta voi k\xE4sitell\xE4 viell\xE4 suurempia lukuja.\n> char,
+    joka on yksitt\xE4inen Unicode-merkki, eli kirjain tai numero tai symbooli tai
+    merkki.\n> bool, on arvo joka kertoo on se 1 tai 0 eli kyll\xE4 vai ei.\n\nSyyn\xE4
+    n\xE4ille eri tyypisille arvo/tieto tyypeille on se ett\xE4 voidaan varmistaa
+    ett\xE4 koodi k\xE4ytt\xE4\xE4 arvoa/tietoa tietyss\xE4 muodossa ja est\xE4\xE4kseen
+    mahdollisia virheit\xE4 tapahtumasta."
 --- !u!222 &661590830
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -564,7 +563,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4401364879859708037, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Text
-      value: "C#: Muutujat ja niiden k\xE4yt\xF6t"
+      value: 'C# perusteet: Arvojen (Tiedon) tyypit'
       objectReference: {fileID: 0}
     - target: {fileID: 6571865623390019869, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Pivot.x
@@ -648,7 +647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7058628496367806489, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Text
-      value: 1/3
+      value: 1/5
       objectReference: {fileID: 0}
     - target: {fileID: 8058436675063826029, guid: 160bf59e69949ae4eae202d9a2d7cdd3, type: 3}
       propertyPath: m_Name
@@ -831,8 +830,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800356767782766449, guid: 0e8228e4d7c46d54f8a84bf465468e8b, type: 3}
       propertyPath: m_Text
-      value: "Lyhennys: Muutujat ovat arvon pidikkeit\xE4, jolla voidaan tallentaa
-        arvoja joita k\xE4ytt\xE4\xE4 my\xF6hemmin muiden koodien toiminnoissa."
+      value: "N\xE4it\xE4 arvoja (paitsi char arvoa) tulet k\xE4ytt\xE4m\xE4\xE4n
+        melkein kaikessa koodissa todella usein, etenkin stringi\xE4 tekstiss\xE4,
+        int/float/double numeroissa ja boolea kyll\xE4 tai ei tilanteissa."
       objectReference: {fileID: 0}
     - target: {fileID: 7800356767782766449, guid: 0e8228e4d7c46d54f8a84bf465468e8b, type: 3}
       propertyPath: m_FontData.m_FontSize

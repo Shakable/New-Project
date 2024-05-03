@@ -33,10 +33,40 @@ EditorBuildSettings:
     path: Assets/Scenes/C# Alkeet, Muutajat/Part2/Material_CodeStructureAndBasics_3.unity
     guid: b5bfbcf173efa9e47a2c3b8892954a5c
   - enabled: 1
-    path: Assets/Scenes/C# Alkeet, Muutajat/Material_HelloMuutuja_1.unity
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part3/Material_HelloMuutuja_1.unity
     guid: b5aade35dfd73604d9c746eb2b4e34c1
   - enabled: 1
-    path: Assets/Scenes/C# Alkeet, Muutajat/Material_HelloMuutuja_1.5.unity
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part3/Material_HelloMuutuja_1.5.unity
     guid: 94998dd200c0b9c4e800354d9bdb5b3e
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part3/Task_HelloMuutuja_2.unity
+    guid: 726ba0dc4f09519439748a0835920f5b
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part3/Task_HelloMuutuja_3.unity
+    guid: 2e776b20849df304fa038864cf5f9097
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part4/Material_MuutujaArvot.unity
+    guid: d91c9bc3e38e62e4b9a2464a3bfb3113
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part4/Material_IntPossibility.unity
+    guid: 574f97d4c78c8244ab88e06441be77ca
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part4/MaterialTask_IntBasics.unity
+    guid: 22fc39858ec14bb4fa774dc1a8cdc0d2
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part4/MaterialTask_IntPossibility.unity
+    guid: ae9767fa0ea2e714883b68b8a70c963f
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part4/Material_NowCalculating.unity
+    guid: 43b79711675ec6e4a86745dc08213e54
+  - enabled: 1
+    path: "Assets/Scenes/C# Alkeet, Muutajat/Part5_End/Task_LaskimenTeht\xE4v\xE4.unity"
+    guid: c4fb62bf17167f04c86167b58333da08
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/Part5_End/Task_NameYearAndAge.unity
+    guid: 1065c8f8776e440428ff9294b6baea3a
+  - enabled: 1
+    path: Assets/Scenes/C# Alkeet, Muutajat/EndHere_NotDone.unity
+    guid: d057bf911a5281f4baa32bca57e50688
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
