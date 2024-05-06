@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: "Ohjeet unohtui t\xE4st\xE4 sivusta."
 --- !u!222 &661590830
 CanvasRenderer:
   m_ObjectHideFlags: 0
